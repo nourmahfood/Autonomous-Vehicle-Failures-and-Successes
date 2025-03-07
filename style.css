@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    text-align: center;
+}
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+.search-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+nav {
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.nav-links li {
+    margin: 0 10px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+#contact {
+display: flex;
+justify-content: center;
+flex-direction: column;
+height: 70vh;
+}
+.contact-info-upper-container{
+display: flex;
+justify-content: center;
+border-radius: 2rem;
+border: rgb(53, 53, 53) 0.1rem solid;
+border-color: rgb(163, 163, 163);
+background: (250, 250, 250);
+margin: 2rem auto;
+padding: 0.5rem;
+}
+.contact-info-container{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 0.5rem;
+margin: 1rem;
+}
+.conta-info-container p{
+font-size: larger;
+}
+.contact-icon{
+cursor: default;
+height: 2rem;
+}
+
+footer {
+height: 10vh;
+margin: 0.1rem;;
+}
+footer p{
+text-align: center;
+}
+ /* Move the 'My Website' title to the right */
+ header nav#des-nav h1 {
+    text-align: right;
+    margin-right: 600px;
+}
+
+/* Move the search container further down */
+.search-container {
+    position: relative;
+    margin-top: 100px; /* Increase margin-top to move it down */
+    text-align: center;
+}
+
+/* Suggestions list */
+.search-suggestions {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-suggestions li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-suggestions li:hover {
+    background: #f0f0f0;
+}
+
+#contact {
+    margin-top: 150px; 
+}
+
+#contact .title {
+    text-align: center;
+}
+
