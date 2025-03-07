@@ -1,6 +1,5 @@
- MyStore - Autonomous Vehicle Data Management
+MyStore - Autonomous Vehicle Data Management
 
- Overview
 MyStore is a web-based application designed to manage and analyze data related to autonomous vehicles. It includes functionalities for tracking failures, successes, vehicle sensors, test scenarios, maintenance records, and more.
 
  Features
